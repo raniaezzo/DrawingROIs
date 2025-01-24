@@ -61,30 +61,32 @@ freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_
 
 
 
-3. Position the inflated surface so that you can see the majority of the ROI you are planning to draw. Then click on 
-    "Path Custom Fill," then "Make Path"
-    <img src="images/drawingROIs/PathCustomFill.png" width="300">
+3. Position the inflated surface so that you can see the majority of the ROI you are planning to draw. Then click on "Path Custom Fill," then add points by clicking along the polar angle reversals from lowe to upper vertical meridian.
+
+    <img src="images/drawingROIs/pathCustomfill.png" width="300">
+    <img src="images/drawingROIs/polarAngleLegend.png" width="150">
 
 
-4. Make a path by clicking on parts of the cortex that are the outer boundary of the first region you are drawing, e.g. V1. Hold down on the “click” and drag to turn the surface while drawing the ROI.
-    < insert image here>
+4. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
+   <img src="images/drawingROIs/makeClosedPath.png" width="300">
 
 
-5. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line.
+5. Then click “Custom Fill” to create the label 
+
+    <img src="images/drawingROIs/customFill.png" width="300">
 
 
-6. Next, click inside the middle of the the ROI. This should make a point within the boundary like this:
+6. Once the ROI is created, rename the label and save it to the folder with your initials. Click on the Show outline only check box.
+
+    <img src="images/drawingROIs/saveLabel.png" width="300">
+
+7.  To create the next ROI, make sure you “Clear Marks/Clear paths etc.” in the toolbar. Recommended to save as a name like this <hemi>.<ROIname>_<your_intials>. Keep naming scheme consistent across all ROIs drawn.
+    <img src="images/drawingROIs/clearPath.png" width="150">
 
 
-7. Then click “Custom Fill”
+8.  And then make a path for the adjacent region (e.g., V2) using the steps above. NOTE: make the boundaries significantly overlap with the already-drawn ROI (V1). This will ultimately result in touching boundaries. Make sure to save when done.
+   
+   <img src="images/drawingROIs/adjacentROIs.png" width="300">
 
-8. Once the ROI is created, save it to the folder with the naming scheme outlined below.
-
-9. To create the next ROI, make sure you “Clear Marks/Clear paths etc.” in the toolbar. And then make a path for the next region in the hierarchy, e.g., V2d. Make the boundaries significantly overlap within the adjacent region so that the ROI will be created as adjacent.
-
-10. Then put a marked point (see tiny cyan point inside the yellow boundary) inside the area to be filled. Then click “Custom Fill” with these options. 
-
-11. Save out the manual ROIS [**label name and file name are the same**]. Save inside the folder you created with your initials. Name the ROIs as follows, where XX is your initials and ? is r or l:
-
-12. Repeat the above steps for the other hemisphere.
+9.  Repeat the above steps for the other hemisphere.
 

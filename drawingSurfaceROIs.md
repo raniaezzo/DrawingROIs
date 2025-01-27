@@ -32,8 +32,8 @@ mkdir  $SUBJECTS_DIR/$SUBJECT_NAME/label/retinotopy_RE
 2. Copy provided custom color maps to display polar angle and eccentricity gradients, or create your own. Note the eccentricity scale provided is linearly spaced.
 
 ```bash
-cp eccentricity_color_scale $SUBJECTS_DIR/eccentricity_color_scale
-cp angle_color_scale $SUBJECTS_DIR/angle_color_scale
+cp colormaps/eccentricity_color_scale $SUBJECTS_DIR/eccentricity_color_scale
+cp colormaps/angle_color_scale $SUBJECTS_DIR/angle_color_scale
 ```
 
 

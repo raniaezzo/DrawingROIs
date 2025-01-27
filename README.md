@@ -1,5 +1,3 @@
-# Drawing ROIs <!-- omit in toc -->
-
 Please contact Rania Ezzo (rania.ezzo@nyu.edu) for any questions or suggestions.
 
 # Description

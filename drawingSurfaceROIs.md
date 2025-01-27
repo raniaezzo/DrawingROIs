@@ -10,18 +10,15 @@ Date: Jan 24, 2025
 - [Repeated set up for drawing](#repeated-set-up-for-drawing)
 
 # Software Requirements
-This tutorial requires [Freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall) to be installed. These instructions assume that Freesurfer recon-all has bee run for the subject’s anatomical scan, and population receptive fields (pRFs) have already been modeled and the polar angle/eccentricity estimates are in Freesurfer surface space. For more information about how to run pRF fits, see [prfVista](https://github.com/WinawerLab/prfVista), or [analyzePRF](https://github.com/cvnlab/analyzePRF).
+This tutorial requires [Freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall) to be installed. These instructions assume that Freesurfer recon-all has been run for the subject’s anatomical scan, and population receptive fields (pRFs) have already been modeled and the polar angle/eccentricity estimates are in Freesurfer surface space. For more information about how to run pRF fits, see [prfVista](https://github.com/WinawerLab/prfVista), or [analyzePRF](https://github.com/cvnlab/analyzePRF).
 
 
 # Background & Description
-This document outlines how to draw regions of interest (ROIs) in the visual cortex, including regions V1, V2, V3, hV4, V3A/B, MT, and MST. For a deeper background on retinotopic organization of the visual cortex please refer to the following:
+This document outlines how to draw regions of interest (ROIs) V1-V3 in the visual cortex. For a deeper background on retinotopic organization of V1-V3 please refer to the following:
 
 - Wandell, Dumoulin & Brewer 2007. Visual field maps in human cortex (Figs 5-6)
 - Wandell & Winawer 2011. Imaging retinotopic maps in the human brain (Figs 4-5)
-- Barton & Brewer 2017. Visual Field Map Clusters in High-Order Visual Processing: Or- ganization of V3A/V3B and a New Cloverleaf Cluster in the Posterior Superior Temporal Sulcus (Figs 2)
 - Benson et al. 2022. Variaility of the surface area of the V1, V2, and V3 maps in a large sample of human observers
-- Witthoft et al. 2014. Where is human V4? Predicting the location of hV4 and VO1 from cortical folding
-- Winawer & Witthoft. 2015. Human V4 and ventral occipital retinotopic maps
 
 # First Time Set up only
 

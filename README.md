@@ -3,7 +3,7 @@ Please contact Rania Ezzo (rania.ezzo@nyu.edu) for any questions or suggestions.
 # Description
 This document outlines how to draw regions of interest (ROIs) in the visual cortex, including regions V1, V2, V3, hV4, V3A/B, MT, and MST.
 
-# Scripts
+# Tutorials
 drawingSurfaceROIS: outlines how to draw regions of interest (ROIs) V1-V3 in the visual cortex on Freesurfer's inflated surface.
 
 

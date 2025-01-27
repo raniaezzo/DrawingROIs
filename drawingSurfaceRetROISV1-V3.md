@@ -60,30 +60,30 @@ freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_
 
 3. Position the inflated surface so that you can see the majority of the ROI you are planning to draw. Then click on "Path Custom Fill," then add points by clicking along the polar angle reversals from lowe to upper vertical meridian.
 
-    <img src="images/drawingROIs/pathCustomfill.png" width="300">
-    <img src="images/drawingROIs/polarAngleLegend.png" width="150">
+    <img src="images/drawingSurfaceRetROISV1-V3/pathCustomfill.png" width="300">
+    <img src="images/drawingSurfaceRetROISV1-V3/polarAngleLegend.png" width="150">
 
 
 4. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
-   <img src="images/drawingROIs/makeClosedPath.png" width="300">
+   <img src="images/drawingSurfaceRetROISV1-V3/makeClosedPath.png" width="300">
 
 
 5. Then click “Custom Fill” to create the label 
 
-    <img src="images/drawingROIs/customFill.png" width="300">
+    <img src="images/drawingSurfaceRetROISV1-V3/customFill.png" width="300">
 
 
 6. Once the ROI is created, rename the label and save it to the folder with your initials. Click on the Show outline only check box.
 
-    <img src="images/drawingROIs/saveLabel.png" width="300">
+    <img src="images/drawingSurfaceRetROISV1-V3/saveLabel.png" width="300">
 
 7.  To create the next ROI, make sure you “Clear Marks/Clear paths etc.” in the toolbar. Recommended to save as a name like this <hemi>.<ROIname>_<your_intials>. Keep naming scheme consistent across all ROIs drawn.
-    <img src="images/drawingROIs/clearPath.png" width="150">
+    <img src="images/drawingSurfaceRetROISV1-V3/clearPath.png" width="150">
 
 
 8.  And then make a path for the adjacent region (e.g., V2) using the steps above. NOTE: make the boundaries significantly overlap with the already-drawn ROI (V1). This will ultimately result in touching boundaries. Make sure to save when done.
    
-   <img src="images/drawingROIs/adjacentROIs.png" width="300">
+   <img src="images/drawingSurfaceRetROISV1-V3/adjacentROIs.png" width="300">
 
 9.  Repeat the above steps for the other hemisphere.
 

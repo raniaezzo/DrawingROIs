@@ -29,6 +29,15 @@ This document outlines how to draw regions of interest (ROIs) V3a-b in the visua
 
 # Examples
    
+<div style="display: flex; justify-content: space-around;">
    <img src="images/exampleRetROISV3a-b/v3ab_sub127.png" width="300">
 
+   <img src="images/exampleRetROISV3a-b/v3ab_sub124.png" width="300">
+</div>
+
+<div style="display: flex; justify-content: space-around;">
+   <img src="images/exampleRetROISV3a-b/v3ab_sub0427.png" width="300">
+
+   <img src="images/exampleRetROISV3a-b/v3ab_sub0037.png" width="300">
+</div>
 

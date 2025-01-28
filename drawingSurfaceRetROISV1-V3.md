@@ -43,7 +43,7 @@ cp colormaps/angle_color_scale $SUBJECTS_DIR/angle_color_scale
 
 ```bash
 cd /path/to/pRF/subject/session/                    # path to where mgz files for eccentricity and polar maps are
-SUBJECTS_DIR=/path/to/freesurfer/directory          # path to where recon-all output is
+SUBJECTS_DIR=/path/to/freesurfer/directory/          # path to where recon-all output is
 SUBJECT_NAME=sub-<subjectname>                      # replace with name of subject folder within SUBJECTS_DIR
 HEMI=rh                                             # for right hemisphere (change to lh for left)
 ```

@@ -33,7 +33,8 @@ mkdir  $SUBJECTS_DIR/$SUBJECT_NAME/label/retinotopy_RE
 
 ```bash
 cp colormaps/eccentricity_color_scale $SUBJECTS_DIR/eccentricity_color_scale
-cp colormaps/angle_color_scale $SUBJECTS_DIR/angle_color_scale
+cp colormaps/angle_corr_rh_color_scale $SUBJECTS_DIR/angle_corr_rh_color_scale
+cp colormaps/angle_corr_lh_color_scale $SUBJECTS_DIR/angle_corr_lh_color_scale
 ```
 
 

@@ -37,7 +37,6 @@ cp colormaps/angle_corr_rh_color_scale $SUBJECTS_DIR/angle_corr_rh_color_scale
 cp colormaps/angle_corr_lh_color_scale $SUBJECTS_DIR/angle_corr_lh_color_scale
 ```
 
-
 # Repeated set up for drawing
 
 1. In the bash terminal, change directory and set variables
@@ -49,12 +48,10 @@ SUBJECT_NAME=sub-<subjectname>                      # replace with name of subje
 HEMI=rh                                             # for right hemisphere (change to lh for left)
 ```
 
-
-
 2. Display the inflated surface in freeview with the eccentricity and polar angle maps overlayed.
 
 ```bash
-freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_adj.mgz:overlay_custom=$SUBJECTS_DIR/angle_corr_"${HEMI}"_color_scale:overlay=$HEMI.eccen.mgz:overlay_custom=$SUBJECTS_DIR/eccentricity_color_scale
+freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_adj.mgz:overlay_custom=$SUBJECTS_DIR/angle_corr_"${HEMI}"_color_scale:overlay_color=clearhigher:overlay=$HEMI.eccen.mgz:overlay_custom=$SUBJECTS_DIR/eccentricity_color_scale
 ```
 
 

@@ -40,7 +40,7 @@ cp colormaps/angle_corr_lh_color_scale $SUBJECTS_DIR/angle_corr_lh_color_scale
 
 # Repeated set up for drawing
 
-1. In the terminal, change directory and set variables
+1. In the bash terminal, change directory and set variables
 
 ```bash
 cd /path/to/pRF/subject/session/                    # path to where mgz files for eccentricity and polar maps are
@@ -54,7 +54,7 @@ HEMI=rh                                             # for right hemisphere (chan
 2. Display the inflated surface in freeview with the eccentricity and polar angle maps overlayed.
 
 ```bash
-freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_adj.mgz:overlay_custom=$SUBJECTS_DIR/angle_corr_$HEMI_color_scale:overlay=$HEMI.eccen.mgz:overlay_custom=$SUBJECTS_DIR/eccentricity_color_scale
+freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_adj.mgz:overlay_custom=$SUBJECTS_DIR/angle_corr_"${HEMI}"_color_scale:overlay=$HEMI.eccen.mgz:overlay_custom=$SUBJECTS_DIR/eccentricity_color_scale
 ```
 
 

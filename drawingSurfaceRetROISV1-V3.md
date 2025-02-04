@@ -10,7 +10,7 @@ Date: Jan 24, 2025
 - [Repeated set up for drawing](#repeated-set-up-for-drawing)
 
 # Software Requirements
-This tutorial requires [Freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall) to be installed. These instructions assume that Freesurfer recon-all has been run for the subject’s anatomical scan, and population receptive fields (pRFs) have already been modeled and the polar angle/eccentricity estimates are in Freesurfer surface space. For more information about how to run pRF fits, see [prfVista](https://github.com/WinawerLab/prfVista), or [analyzePRF](https://github.com/cvnlab/analyzePRF).
+This tutorial requires [Freesurfer](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall) to be installed. These instructions assume that Freesurfer recon-all has been run for the subject’s anatomical scan, and population receptive fields (pRFs) have already been modeled and the polar angle/eccentricity estimates are in Freesurfer surface space. For more information about how to run pRF fits, see [prfVista](https://github.com/WinawerLab/prfVista), or [analyzePRF](https://github.com/cvnlab/analyzePRF). It is recommended to draw ROIs using a large monitor and a mouse (rather than a trackpad).
 
 
 # Background & Description
@@ -56,13 +56,17 @@ freeview -f $SUBJECTS_DIR/$SUBJECT_NAME/surf/$HEMI.inflated:overlay=$HEMI.angle_
 
 
 
-3. Position the inflated surface so that you can see the majority of the ROI you are planning to draw. Then click on "Path Custom Fill," then add points by clicking along the polar angle reversals from lowe to upper vertical meridian.
+3. Position the inflated surface so that you can see the majority of the ROI you are planning to draw. Then click on "Path Custom Fill," then add points by clicking along the polar angle reversals from lower to upper vertical meridian. 
 
     <img src="images/drawingSurfaceRetROISV1-V3/pathCustomfill.png" width="300">
     <img src="images/drawingSurfaceRetROISV1-V3/polarAngleLegend.png" width="150">
 
+TIPS:
+- Because estimates of the vertical meridian is are not always exact, there might be some missing datapoints within the range (see empty vertices along the points). In this case, take your best guess (I usually draw the line at the center of these missing points that likely represent the vertical meridian).
+- Likewise, sometimes there are blotches that are not part of the eccentricity/polar angle gradients. This could be due to various sources of noise (e.g., partial volume effects based on cortical folds might lead to the same incorrect estimates; eye movements that occur during the run etc.). In some cases, toggling back and forth between the variance explained map can help by demonstrating which vertices have reliable fits.
 
-4. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
+
+1. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
    <img src="images/drawingSurfaceRetROISV1-V3/makeClosedPath.png" width="300">
 
 

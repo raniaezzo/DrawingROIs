@@ -30,6 +30,6 @@ This document outlines how to draw regions of interest (ROIs) MT/MST in the visu
 # Examples
    
 <div style="display: flex; justify-content: space-around;">
-   <img src="images/exampleRetMTMST/MT_MST_func_ret_2subjs.png" width="800">
+   <img src="images/exampleRetMTMST/MT_MST_func_ret_2subjs.png" width="1000">
 </div>
 

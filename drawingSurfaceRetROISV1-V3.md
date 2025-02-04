@@ -66,7 +66,8 @@ TIPS:
 - Likewise, sometimes there are blotches that are not part of the eccentricity/polar angle gradients. This could be due to various sources of noise (e.g., partial volume effects based on cortical folds might lead to the same incorrect estimates; eye movements that occur during the run etc.). In some cases, toggling back and forth between the variance explained map can help by demonstrating which vertices have reliable fits.
 
 
-1. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
+4. After drawing, click on “Make Closed Path”. This will connect all the dots with one boundary line. After this, click inside the middle of the the ROI. This should make a point within the boundary like this:
+ 
    <img src="images/drawingSurfaceRetROISV1-V3/makeClosedPath.png" width="300">
 
 

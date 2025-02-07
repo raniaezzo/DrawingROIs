@@ -14,7 +14,7 @@ Same software requirements as outlined in drawingSurfaceRetROISV1-V3. Here we as
 
 
 # Background & Description
-This document outlines how to draw regions of interest (ROIs) MT/MST in the visual cortex. For a deeper background on retinotopic organization of these regions please refer to the following. Keep in mind that some figures in these papers display ROIs on flattened surface, which appear different from the inflated surface:
+This document outlines how to draw regions of interest (ROIs) MT/MST around the ascending limb of inferior temporal sulcus and occipita sulcus. For a deeper background on retinotopic organization of these regions please refer to the following. Keep in mind that some figures in these papers display ROIs on flattened surface, which appear different from the inflated surface:
 
 - Amano, Wandell & Dumoulin 2009. Visual Field Maps, Population Receptive Field Sizes, Coverage in the Human MT+ Complex (Fig 1, 2, 9 & Supplement: TO1 is putative MT and TO2 is putative MST)
 - Kolster, Peeters & Orban. 2010. The Retinotopic Organization of the Human Middle Temporal Area MT/V5 and Its Cortical Neighbors (Fig 2, 3, 11, 16 & Supplement).
